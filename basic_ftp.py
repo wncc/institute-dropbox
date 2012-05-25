@@ -8,5 +8,5 @@ from ftplib import FTP
 global ftp
 ftp = FTP ('home.iitb.ac.in')
 ftp.login(username,password)
-print "Welcome "+ username + " to your bighome home folder"
+print "Welcome "+ username + " to your bighome home folder."
 
